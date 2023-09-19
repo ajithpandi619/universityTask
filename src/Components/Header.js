@@ -42,17 +42,21 @@ function Header() {
                 Contact Us
               </Link>
             </Nav>
-            <Button
-              style={{
-                width: "130px",
-                fontSize: "13px",
-                height: "30px",
-                marginTop: "0px",
-              }}
-              className="bg-light text-dark border-dark rounded-pill ms-5 fw-bolder"
-            >
-              Login
-            </Button>
+            <Link to="/signin">
+              {" "}
+              <Button
+                style={{
+                  width: "130px",
+                  fontSize: "13px",
+                  height: "30px",
+                  marginTop: "0px",
+                }}
+                className="bg-light text-dark border-dark rounded-pill ms-5 fw-bolder"
+              >
+                Login
+              </Button>
+            </Link>
+
             <Link to="/signup">
               <Button
                 style={{

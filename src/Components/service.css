@@ -1,0 +1,248 @@
+/* body{
+    overflow-x:hidden ;
+} */
+.carousel-indicators [data-bs-target] {
+  box-sizing: content-box;
+  flex: 0 1 auto;
+  width: 30px;
+  height: 30px;
+  padding: 0;
+  margin-right: 3px;
+  margin-left: 3px;
+  text-indent: -999px;
+  cursor: pointer;
+  background-color: #83817d;
+  background-clip: padding-box;
+  border-radius: 50%;
+  border-top: 10px solid transparent;
+  border-bottom: 10px solid transparent;
+  opacity: 0.5;
+  transition: opacity 0.6s ease;
+  position: relative;
+  top: 80px;
+}
+.carousel-indicators .active {
+  background-color: rgb(19, 18, 18);
+}
+.topsec {
+  display: flex;
+  justify-content: space-between;
+}
+.topsec img {
+  width: 100%;
+  height: 200px;
+}
+.box1 {
+  height: 400px;
+  width: 350px;
+  margin-bottom: 20px;
+}
+.overthebox {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.carousel-inner img {
+  width: 100%;
+  height: 500px;
+}
+.carousel-inner {
+  margin-bottom: 100px;
+}
+.heading {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: green;
+  font-weight: 900;
+}
+.par {
+  color: black;
+  width: 400px;
+  font-weight: 600;
+  text-align: center;
+  margin-bottom: 100px;
+}
+.viewmore {
+  color: green;
+}
+.btncont {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.btnviewmore {
+  background-color: rgb(7, 84, 7);
+  color: white;
+  border-radius: 30px;
+  padding: 10px;
+  align-self: center;
+  margin-bottom: 150px;
+}
+.imgsec1 {
+  width: 100%;
+  height: 400px;
+  position: absolute;
+}
+.imgsec1 img {
+  width: 550px;
+  height: 350px;
+  opacity: 0.8;
+}
+.topbox {
+  width: 250px;
+  height: 200px;
+  display: flex;
+  gap: 20px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(white, white, white, 0.5);
+  box-shadow: 2px 2px 10px;
+  border-radius: 15px;
+  position: relative;
+  top: -130px;
+  left: -30px;
+  text-align: left;
+}
+.bottombox {
+  width: 250px;
+  height: 200px;
+  display: flex;
+  gap: 20px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(black, black, black, 0.5);
+  box-shadow: 2px 2px 10px;
+  border-radius: 15px;
+  position: relative;
+  bottom: -30px;
+  right: -400px;
+  text-align: left;
+}
+.iconbox {
+  display: flex;
+  width: 100%;
+  justify-content: space-evenly;
+}
+.icon {
+  font-size: 25px;
+}
+.icon1 {
+  color: red;
+}
+.icon2 {
+  color: rgb(243, 243, 9);
+  border-radius: 50%;
+}
+.icon3 {
+  color: rgb(53, 35, 212);
+}
+.contactbtn {
+  background-color: rgb(7, 84, 7);
+  color: white;
+  border-radius: 30px;
+  padding: 3px 10px;
+  width: 130px;
+}
+.contactbox {
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.green {
+  color: green;
+}
+.parlast {
+  text-align: center;
+  width: 70%;
+  font-weight: 600;
+  color: black;
+  margin-bottom: 100px;
+}
+.lastsecion {
+  width: 100vw;
+  height: 80vh;
+  background-position: center;
+  background-size: cover;
+}
+.lbox {
+  width: 330px;
+  height: 350px;
+  border-radius: 20px;
+  box-shadow: 2px 2px 4px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  background-color: white;
+  opacity: 0.7;
+}
+.bbox {
+  display: flex;
+  justify-content: center;
+}
+.lbox1 {
+  /* position: absolute;
+    top: 150px;
+    left: 50px; */
+  align-self: center;
+}
+.lbox2 {
+  /* position: absolute;
+    top: 45%;
+    left: 50%;    
+    transform: translate(-50%,-50%); */
+  margin-top: 50px;
+}
+.lbox3 {
+  /* position: absolute;
+    top: 150px;
+    right: 50px; */
+  align-self: center;
+}
+.licons {
+  width: 100px;
+  height: 100px;
+  padding: 10px;
+  border-radius: 20px;
+  background-color: aqua;
+}
+.licon1 {
+  background-color: rgb(145, 149, 60);
+  color: yellow;
+}
+.licon2 {
+  background-color: sandybrown;
+  color: rgb(83, 41, 235);
+}
+.licon3 {
+  background-color: lightgrey;
+  color: blueviolet;
+  transform: rotate(90deg);
+}
+.lsection {
+  margin-top: 150px;
+}
+.circle1 {
+  width: 70px;
+  height: 70px;
+  background-color: lightpink;
+  border-radius: 50%;
+  position: absolute;
+  top: 1300px;
+  left: 30px;
+}
+.book {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  position: absolute;
+  top: 1250px;
+  left: 40%;
+  transform: rotate(-30deg);
+}

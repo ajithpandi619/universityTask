@@ -65,7 +65,7 @@ const Contact = () => {
                   className="p-3  "
                   name="comments"
                   id="comments"
-                  cols="56"
+                  cols="50"
                   rows="4"
                   placeholder="Enter your comments"
                 ></textarea>

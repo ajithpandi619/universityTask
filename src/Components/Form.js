@@ -5,13 +5,13 @@ import Footer from "./Footer";
 
 function FormFile() {
   return (
-    <div style={{ padding: "10px" }}>
+    <div>
       <Container
         className="Form_Container"
         style={{
           maxWidth: "1200px",
           marginBottom: "100px",
-          height: "850px",
+          height: "920px",
         }}
       >
         <h4 className="text-center fw-semibold text-success pt-5">

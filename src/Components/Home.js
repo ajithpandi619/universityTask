@@ -96,12 +96,12 @@ function Home() {
               </div>
 
               <h6 className="fw-bolder mt-3">Programs</h6>
-              <p style={{ width: "500px" }} className="w-100 text-center">
+              <p style={{ width: "500px" }} className="text-center">
                 We offer junior and senior
                 <br />
                 secondary school programs...
               </p>
-              <p className="text-success fw-semibold">SEE MORE ></p>
+              <p className="text-success fw-semibold see_more">SEE MORE ></p>
             </Col>
             {/* second icon */}
             <Col
@@ -120,7 +120,7 @@ function Home() {
                 <br />
                 and also based on if students are...
               </p>
-              <p className="text-success fw-semibold">SEE MORE ></p>
+              <p className="text-success fw-semibold see_more">SEE MORE ></p>
             </Col>
 
             {/* third icon */}
@@ -140,7 +140,7 @@ function Home() {
                 <br />
                 our student obtain the junior...
               </p>
-              <p className="text-success fw-semibold">SEE MORE ></p>
+              <p className="text-success fw-semibold see_more">SEE MORE ></p>
             </Col>
           </div>
         </div>
@@ -175,7 +175,7 @@ function Home() {
             <HiOutlineBookOpen />
           </span>
           {/* -------- book icons ---------*/}
-          <Row className="d-flex  align-items-center">
+          <Row className="d-flex  align-items-center third_page_cards">
             <Col style={{ marginBottom: "100px" }}>
               <h3 className="fw-semibold">
                 Expert Talent with <br />
@@ -215,7 +215,7 @@ function Home() {
                       top: "25px",
                       left: "25px",
                     }}
-                    className=" text-success"
+                    className=" text-success home_card"
                   >
                     <ImBooks
                       className="circle"
@@ -250,7 +250,7 @@ function Home() {
                       top: "25px",
                       left: "25px",
                     }}
-                    className=" text-success"
+                    className=" text-success home_card"
                   >
                     <MdBusinessCenter
                       style={{
@@ -289,7 +289,7 @@ function Home() {
                       top: "25px",
                       left: "25px",
                     }}
-                    className=" text-success"
+                    className=" text-success home_card"
                   >
                     <MdOutlineComputer
                       style={{
@@ -325,7 +325,7 @@ function Home() {
                       top: "25px",
                       left: "25px",
                     }}
-                    className=" text-light"
+                    className=" text-light home_card"
                   >
                     <BsChatDots
                       style={{
