@@ -62,6 +62,7 @@ const Contact = () => {
                 <label>Comment or Message</label>
                 <div></div>
                 <textarea
+                  style={{ width: "380px" }}
                   className="p-3  "
                   name="comments"
                   id="comments"
